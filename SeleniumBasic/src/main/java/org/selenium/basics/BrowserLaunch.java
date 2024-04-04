@@ -1,5 +1,6 @@
 package org.selenium.basics;
 import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BrowserLaunch {
@@ -21,6 +22,9 @@ public class BrowserLaunch {
 	String pagesource=driver.getPageSource();
 	System.out.println(pagesource);
 	//close the window
+	driver.navigate().back();
+	driver.navigate().forward();
+	driver.navigate().refresh();
 	driver.close();
 	
 	

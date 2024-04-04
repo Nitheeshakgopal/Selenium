@@ -16,8 +16,7 @@ public class EdgeBrowser {
 		System.out.println(pagesource);
 		String windowhandle=driver.getWindowHandle();
 		System.out.println(windowhandle);
-		driver.close();
-		
+		driver.close();		
 
 	}
 
